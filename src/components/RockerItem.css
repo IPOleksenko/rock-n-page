@@ -1,0 +1,31 @@
+/* Стили для контейнера */
+.rocker-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column; /* Меняем направление расположения элементов на вертикальное */
+  align-items: center; /* Выравниваем элементы по центру горизонтали */
+}
+
+/* Стили для изображения рокера */
+.rocker-image {
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+/* Стили для имени рокера */
+.rocker-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+/* Стили для известности рокера */
+.rocker-fame {
+  font-size: 1em;
+  color: #666;
+}

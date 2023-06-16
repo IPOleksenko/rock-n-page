@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import RockersList from './components/RockersList';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app">
+      <header className="header">
+        <h1>Топ 50 рок-музыкантов мира</h1>
       </header>
+      <main className="main">
+        <RockersList />
+      </main>
+      <footer className="footer">
+        <p>© 2023 Рок-сайт. Все права защищены.</p>
+      </footer>
     </div>
   );
-}
+};
 
 export default App;
